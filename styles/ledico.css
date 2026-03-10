@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #E91E63;
+    --primary-dark: #C2185B;
+    --primary-light: #F8BBD9;
+    --secondary: #FF6B9D;
+    --secondary-light: #FFB3D1;
+    --accent: #FF1744;
+    --rose: #F06292;
+    --rose-light: #F8BBD9;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-poppins), var(--font-inter), system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+  .heading-xl {
+    @apply text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl;
+  }
+  .heading-lg {
+    @apply text-2xl font-semibold sm:text-3xl;
+  }
+  .heading-md {
+    @apply text-xl font-semibold sm:text-2xl;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-[var(--primary)] px-6 py-3 font-medium text-white shadow-lg transition hover:bg-[var(--primary-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg bg-[var(--secondary)] px-6 py-3 font-medium text-white shadow-lg transition hover:bg-[var(--secondary-light)] focus:outline-none focus:ring-2 focus:ring-[var(--secondary)] focus:ring-offset-2;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg border-2 border-[var(--primary)] bg-transparent px-6 py-3 font-medium text-[var(--primary)] transition hover:bg-[var(--primary)] hover:text-white focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2;
+  }
+  .card {
+    @apply rounded-2xl bg-white p-6 shadow-lg transition hover:shadow-xl;
+  }
+}

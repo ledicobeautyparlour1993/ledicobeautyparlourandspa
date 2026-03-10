@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ledicobeauty.com/sitemap.xml
+
+# Specific crawl directives for beauty parlour content
+Allow: /services
+Allow: /bridal
+Allow: /spa
+Allow: /gallery
+Allow: /booking
+Allow: /contact
+Allow: /about
+
+# Block admin or private areas (if any)
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

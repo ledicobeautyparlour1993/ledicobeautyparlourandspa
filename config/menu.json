@@ -1,0 +1,73 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Services",
+      "url": "/services"
+    },
+    {
+      "name": "Gallery",
+      "url": "/gallery"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Services",
+      "menu": [
+        {
+          "text": "Bridal Makeup",
+          "url": "/services"
+        },
+        {
+          "text": "Facial & Spa",
+          "url": "/services"
+        },
+        {
+          "text": "Hair Styling",
+          "url": "/services"
+        }
+      ]
+    },
+    {
+      "name": "Company",
+      "menu": [
+        {
+          "text": "About Us",
+          "url": "/about"
+        },
+        {
+          "text": "Contact",
+          "url": "/contact"
+        },
+        {
+          "text": "Gallery",
+          "url": "/gallery"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "menu": [
+        {
+          "text": "086515 18563",
+          "url": "tel:08651518563"
+        },
+        {
+          "text": "Dehri on sone, Bihar",
+          "url": "/contact"
+        }
+      ]
+    }
+  ]
+}
