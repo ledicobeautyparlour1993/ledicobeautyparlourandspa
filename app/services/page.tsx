@@ -46,7 +46,7 @@ export default function ServicesPage() {
         <div className="container-custom">
           <h2 className="heading-lg text-center text-ledico-primary mb-4">Most Popular Treatments</h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Our clients' favorite beauty and spa treatments
+            Our clients&apos; favorite beauty and spa treatments
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {POPULAR_TREATMENTS.map((treatment, i) => (

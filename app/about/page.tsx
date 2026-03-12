@@ -38,7 +38,7 @@ export default function AboutPage() {
                 <p>
                   Established in {SITE.established}, Ledico Beauty Parlour & Spa has been serving the beauty needs 
                   of Dehri on Sone and surrounding areas in Bihar. What started as a small beauty salon has grown 
-                  into the region's most trusted destination for comprehensive beauty and wellness services.
+                  into the region&apos;s most trusted destination for comprehensive beauty and wellness services.
                 </p>
                 <p>
                   Located in the heart of Dehri at {SITE.address.landmark}, we have built our reputation on 
@@ -205,7 +205,7 @@ export default function AboutPage() {
             <div className="card bg-gradient-to-br from-ledico-primary/10 to-ledico-secondary/10">
               <h3 className="font-semibold text-ledico-primary text-lg mb-4">Ready to Experience Ledico?</h3>
               <p className="text-gray-600 mb-6">
-                Book your appointment today and discover why we're Dehri's most trusted beauty destination.
+                Book your appointment today and discover why we&apos;re Dehri&apos;s most trusted beauty destination.
               </p>
               <div className="space-y-3">
                 <Link href="/booking" className="btn-primary w-full text-center">

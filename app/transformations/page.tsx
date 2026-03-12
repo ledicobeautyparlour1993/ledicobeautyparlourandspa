@@ -97,7 +97,7 @@ export default function TransformationsPage() {
                         <span key={j} className="text-ledico-secondary">⭐</span>
                       ))}
                     </div>
-                    <p className="text-gray-600 italic">"{testimonial.testimonial}"</p>
+                    <p className="text-gray-600 italic">&ldquo;{testimonial.testimonial}&rdquo;</p>
                   </div>
                   <div className="border-t pt-4">
                     <h4 className="font-semibold text-ledico-primary">{testimonial.name}</h4>

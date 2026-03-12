@@ -22,7 +22,7 @@ export default function BookingPage() {
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="heading-xl text-ledico-primary">Book Your Appointment</h1>
             <p className="mt-6 text-lg text-gray-600">
-              Schedule your beauty and spa treatments with our expert team. We're here to make you look and feel amazing.
+              Schedule your beauty and spa treatments with our expert team. We&apos;re here to make you look and feel amazing.
             </p>
           </div>
         </div>

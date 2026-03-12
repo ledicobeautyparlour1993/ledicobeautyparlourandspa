@@ -102,7 +102,7 @@ export default function ContactPage() {
                     <span className="text-ledico-primary font-medium">{SITE.workingHours}</span>
                   </div>
                   <p className="text-gray-600 text-sm">
-                    We're open all week to serve your beauty needs. Walk-ins welcome, but appointments are recommended for guaranteed service.
+                    We&apos;re open all week to serve your beauty needs. Walk-ins welcome, but appointments are recommended for guaranteed service.
                   </p>
                 </div>
               </div>
